@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS `test`;
+CREATE TABLE `test` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `text` mediumtext CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=487 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
